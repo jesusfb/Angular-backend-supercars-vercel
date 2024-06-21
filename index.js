@@ -35,7 +35,7 @@ app.use('/api/vehicles', vehicleRoutes);
 const PORT = process.env.PORT || 3000;
 
 app.get("/",(req,res)=>{
-    res.send("Express en Vercel")
+    res.send("Express en Vercel version 2")
 })
 
 app.listen(PORT, () => {
